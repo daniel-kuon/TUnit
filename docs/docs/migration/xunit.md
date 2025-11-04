@@ -82,6 +82,66 @@ public class CalculatorTests
 - Test method returns `async Task`
 - Assertions use fluent syntax with `await Assert.That(...)`
 
+#### DisplayName for Facts and Theories (Use separate attribute instead of constructor parameter)
+
+**xUnit Code:**
+```csharp
+public class CalculatorTests
+{
+    [Fact(DisplayName = "Add two numbers returns their sum")]
+    public void Add_TwoNumbers_ReturnsSum()
+    {
+        var calculator = new Calculator();
+        var result = calculator.Add(2, 3);
+        Assert.Equal(5, result);
+    }
+}
+```
+
+**TUnit Equivalent:**
+```csharp
+public class CalculatorTests
+{
+    [Test, DisplayName("Add two numbers returns their sum"), Skip("Not implemented yet")]
+    public async Task Add_TwoNumbers_ReturnsSum()
+    {
+        var calculator = new Calculator();
+        var result = calculator.Add(2, 3);
+        await Assert.That(result).IsEqualTo(5);
+    }
+}
+```
+
+#### Skipping Facts and Theories (Use separate attribute instead of constructor parameter)
+
+**xUnit Code:**
+```csharp
+public class CalculatorTests
+{
+    [Fact(Skip = "Not implemented yet")]
+    public void Add_TwoNumbers_ReturnsSum()
+    {
+        var calculator = new Calculator();
+        var result = calculator.Add(2, 3);
+        Assert.Equal(5, result);
+    }
+}
+```
+
+**TUnit Equivalent:**
+```csharp
+public class CalculatorTests
+{
+    [Test, Skip("Not implemented yet")]
+    public async Task Add_TwoNumbers_ReturnsSum()
+    {
+        var calculator = new Calculator();
+        var result = calculator.Add(2, 3);
+        await Assert.That(result).IsEqualTo(5);
+    }
+}
+```
+
 ### Parameterized Tests
 
 #### Theory with InlineData → Arguments
@@ -983,4 +1043,3 @@ public class UserServiceTests(DatabaseFixture dbFixture)
 | `ITestOutputHelper` | `TestContext` parameter |
 | `Assert.Equal(expected, actual)` | `await Assert.That(actual).IsEqualTo(expected)` |
 | `Assert.Throws<T>(() => ...)` | `await Assert.ThrowsAsync<T>(() => ...)` |
-

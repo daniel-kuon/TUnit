@@ -355,6 +355,12 @@ public class XUnitMigrationCodeFixProvider : BaseMigrationCodeFixProvider
             yield return SyntaxFactory.Attribute(SyntaxFactory.IdentifierName("Skip"))
                 .AddArgumentListArguments(SyntaxFactory.AttributeArgument(skip.Expression));
         }
+
+        if (attributeSyntax.ArgumentList?.Arguments.FirstOrDefault(x => x.NameEquals?.Name.Identifier.ValueText == "DisplayName") is { } displayName)
+        {
+            yield return SyntaxFactory.Attribute(SyntaxFactory.IdentifierName("DisplayName"))
+                .AddArgumentListArguments(SyntaxFactory.AttributeArgument(displayName.Expression));
+        }
     }
 
     private static IEnumerable<AttributeSyntax> ConvertCollection(Compilation compilation, AttributeSyntax attributeSyntax)

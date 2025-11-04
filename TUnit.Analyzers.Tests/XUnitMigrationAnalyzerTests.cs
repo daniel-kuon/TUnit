@@ -88,7 +88,7 @@ public class XUnitMigrationAnalyzerTests
 
                   public class MyClass
                   {
-                      [{{attribute}}(Skip = "Reason")]
+                      [{{attribute}}(Skip = "Reason", DisplayName = "My Test")]
                       public void MyTest()
                       {
                       }
@@ -100,7 +100,7 @@ public class XUnitMigrationAnalyzerTests
 
                   public class MyClass
                   {
-                      [Test, Skip("Reason")]
+                      [Test, Skip("Reason"), DisplayName("My Test")]
                       public void MyTest()
                       {
                       }
@@ -654,5 +654,3 @@ public class XUnitMigrationAnalyzerTests
         ]);
     }
 }
-
-
