@@ -1,0 +1,110 @@
+{
+  "timestamp": "2025-11-08T00:26:45.566Z",
+  "environment": {
+    "benchmarkDotNetVersion": "BenchmarkDotNet v0.15.6, Linux Ubuntu 24.04.3 LTS (Noble Numbat)",
+    "sdk": ".NET SDK 10.0.100-rc.2.25502.107",
+    "host": ".NET 10.0.0 (10.0.0-rc.2.25502.107, 10.0.25.50307), X64 RyuJIT x86-64-v3"
+  },
+  "categories": {
+    "results": [
+      {
+        "Method": "TUnit",
+        "Version": "1.0.0",
+        "Mean": "469.01 ms",
+        "Error": "4.459 ms",
+        "StdDev": "4.171 ms",
+        "Median": "468.47 ms"
+      },
+      {
+        "Method": "NUnit",
+        "Version": "4.4.0",
+        "Mean": "524.92 ms",
+        "Error": "9.990 ms",
+        "StdDev": "8.856 ms",
+        "Median": "524.06 ms"
+      },
+      {
+        "Method": "MSTest",
+        "Version": "4.0.1",
+        "Mean": "481.63 ms",
+        "Error": "8.374 ms",
+        "StdDev": "12.787 ms",
+        "Median": "477.35 ms"
+      },
+      {
+        "Method": "xUnit3",
+        "Version": "3.2.0",
+        "Mean": "578.21 ms",
+        "Error": "11.090 ms",
+        "StdDev": "10.374 ms",
+        "Median": "577.51 ms"
+      },
+      {
+        "Method": "TUnit_AOT",
+        "Version": "1.0.0",
+        "Mean": "24.93 ms",
+        "Error": "0.488 ms",
+        "StdDev": "0.522 ms",
+        "Median": "24.86 ms"
+      }
+    ]
+  },
+  "build": {
+    "BuildTime": [
+      {
+        "Method": "Build_TUnit",
+        "Version": "1.0.0",
+        "Mean": "1.781 s",
+        "Error": "0.0290 s",
+        "StdDev": "0.0271 s",
+        "Median": "1.777 s"
+      },
+      {
+        "Method": "Build_NUnit",
+        "Version": "4.4.0",
+        "Mean": "1.583 s",
+        "Error": "0.0113 s",
+        "StdDev": "0.0100 s",
+        "Median": "1.584 s"
+      },
+      {
+        "Method": "Build_MSTest",
+        "Version": "4.0.1",
+        "Mean": "1.660 s",
+        "Error": "0.0196 s",
+        "StdDev": "0.0174 s",
+        "Median": "1.661 s"
+      },
+      {
+        "Method": "Build_xUnit3",
+        "Version": "3.2.0",
+        "Mean": "1.586 s",
+        "Error": "0.0163 s",
+        "StdDev": "0.0144 s",
+        "Median": "1.586 s"
+      }
+    ]
+  },
+  "comparisons": {
+    "results": {
+      "tunitMean": 469.01,
+      "tunitAOTMean": 24.93,
+      "vsXUnit": "1.23",
+      "vsNUnit": "1.12",
+      "vsMSTest": "1.03",
+      "aotSpeedup": "18.81"
+    }
+  },
+  "averageSpeedups": {
+    "vsXUnit": "1.2",
+    "vsNUnit": "1.1",
+    "vsMSTest": "1.0",
+    "count": 1
+  },
+  "stats": {
+    "runtimeCategories": 1,
+    "buildCategories": 1,
+    "totalBenchmarks": 2,
+    "lastUpdated": "2025-11-08T00:26:45.565Z"
+  }
+}
