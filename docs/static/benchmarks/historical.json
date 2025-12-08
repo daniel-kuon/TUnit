@@ -308,5 +308,15 @@
       "count": 1
     },
     "environment": "Ubuntu"
+  },
+  {
+    "date": "2025-12-08",
+    "averageSpeedups": {
+      "vsXUnit": "1.2",
+      "vsNUnit": "1.2",
+      "vsMSTest": "1.1",
+      "count": 1
+    },
+    "environment": "Ubuntu"
   }
 ]
