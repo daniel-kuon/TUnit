@@ -7,7 +7,7 @@ sidebar_position: 1
 # Performance Benchmarks
 
 :::info Last Updated
-These benchmarks were automatically generated on **2026-01-18** from the latest CI run.
+These benchmarks were automatically generated on **2026-01-19** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.102
 :::
@@ -34,18 +34,18 @@ TUnit demonstrates significant performance advantages across all testing scenari
 ### results
 
 :::tip Native AOT Performance
-TUnit with Native AOT compilation is **6.53x faster** than regular JIT!
+TUnit with Native AOT compilation is **6.66x faster** than regular JIT!
 :::
 
 **Performance:** **0.00x faster** than xUnit • **0.00x faster** than NUnit • **0.00x faster** than MSTest
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| 🏆 **TUnit** | 1.0.30 | 515.97 ms | 515.13 ms | 3.050 ms |
-| NUnit | 4.4.0 | 1,512.79 ms | 1,508.29 ms | 8.332 ms |
-| MSTest | 4.0.1 | 1,469.27 ms | 1,469.17 ms | 6.622 ms |
-| xUnit3 | 3.2.0 | 1,564.57 ms | 1,562.16 ms | 9.949 ms |
-| 🏆 **TUnit (AOT)** | 1.0.30 | 78.99 ms | 78.81 ms | 0.493 ms |
+| 🏆 **TUnit** | 1.0.30 | 525.71 ms | 522.42 ms | 7.915 ms |
+| NUnit | 4.4.0 | 1,524.69 ms | 1,521.08 ms | 12.353 ms |
+| MSTest | 4.0.1 | 1,475.50 ms | 1,475.29 ms | 4.710 ms |
+| xUnit3 | 3.2.0 | 1,570.42 ms | 1,570.23 ms | 7.011 ms |
+| 🏆 **TUnit (AOT)** | 1.0.30 | 78.90 ms | 78.87 ms | 0.410 ms |
 
 
 ---
@@ -56,10 +56,10 @@ Compilation time comparison across frameworks:
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| 🏆 **TUnit** | 1.0.30 | 1.790 s | 1.789 s | 0.0348 s |
-| Build_NUnit | 4.4.0 | 1.554 s | 1.553 s | 0.0128 s |
-| Build_MSTest | 4.0.1 | 1.617 s | 1.612 s | 0.0226 s |
-| Build_xUnit3 | 3.2.0 | 1.570 s | 1.566 s | 0.0115 s |
+| 🏆 **TUnit** | 1.0.30 | 1.738 s | 1.736 s | 0.0228 s |
+| Build_NUnit | 4.4.0 | 1.522 s | 1.523 s | 0.0082 s |
+| Build_MSTest | 4.0.1 | 1.600 s | 1.598 s | 0.0108 s |
+| Build_xUnit3 | 3.2.0 | 1.514 s | 1.513 s | 0.0103 s |
 
 
 ---
@@ -116,4 +116,4 @@ These benchmarks run automatically daily via [GitHub Actions](https://github.com
 Each benchmark runs multiple iterations with statistical analysis to ensure accuracy. Results may vary based on hardware and test characteristics.
 :::
 
-*Last generated: 2026-01-18T00:26:21.121Z*
+*Last generated: 2026-01-19T00:25:46.905Z*
