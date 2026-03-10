@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-03-09T00:28:57.092Z",
+  "timestamp": "2026-03-10T00:26:27.674Z",
   "environment": {
     "benchmarkDotNetVersion": "BenchmarkDotNet v0.15.6, Linux Ubuntu 24.04.3 LTS (Noble Numbat)",
     "sdk": ".NET SDK 10.0.103",
-    "host": ".NET 10.0.3 (10.0.3, 10.0.326.7603), X64 RyuJIT x86-64-v3"
+    "host": ".NET 10.0.3 (10.0.3, 10.0.326.7603), X64 RyuJIT x86-64-v4"
   },
   "categories": {
     "results": [
       {
         "Method": "TUnit",
         "Version": "1.0.30",
-        "Mean": "535.4 ms",
-        "Error": "10.16 ms",
-        "StdDev": "10.87 ms",
-        "Median": "534.7 ms"
+        "Mean": "505.29 ms",
+        "Error": "6.200 ms",
+        "StdDev": "5.799 ms",
+        "Median": "503.53 ms"
       },
       {
         "Method": "NUnit",
         "Version": "4.4.0",
-        "Mean": "664.6 ms",
-        "Error": "5.95 ms",
-        "StdDev": "5.57 ms",
-        "Median": "663.8 ms"
+        "Mean": "1,517.20 ms",
+        "Error": "17.083 ms",
+        "StdDev": "15.144 ms",
+        "Median": "1,517.81 ms"
       },
       {
         "Method": "MSTest",
         "Version": "4.0.1",
-        "Mean": "636.9 ms",
-        "Error": "11.79 ms",
-        "StdDev": "11.02 ms",
-        "Median": "634.7 ms"
+        "Mean": "1,476.93 ms",
+        "Error": "12.318 ms",
+        "StdDev": "11.522 ms",
+        "Median": "1,476.15 ms"
       },
       {
         "Method": "xUnit3",
         "Version": "3.2.0",
-        "Mean": "717.8 ms",
-        "Error": "8.42 ms",
-        "StdDev": "7.47 ms",
-        "Median": "717.6 ms"
+        "Mean": "1,567.66 ms",
+        "Error": "6.980 ms",
+        "StdDev": "6.529 ms",
+        "Median": "1,566.00 ms"
       },
       {
         "Method": "TUnit_AOT",
         "Version": "1.0.30",
-        "Mean": "124.6 ms",
-        "Error": "0.43 ms",
-        "StdDev": "0.40 ms",
-        "Median": "124.7 ms"
+        "Mean": "78.56 ms",
+        "Error": "0.283 ms",
+        "StdDev": "0.265 ms",
+        "Median": "78.59 ms"
       }
     ]
   },
@@ -54,57 +54,57 @@
       {
         "Method": "Build_TUnit",
         "Version": "1.0.30",
-        "Mean": "1.799 s",
-        "Error": "0.0294 s",
-        "StdDev": "0.0275 s",
-        "Median": "1.792 s"
+        "Mean": "1.754 s",
+        "Error": "0.0240 s",
+        "StdDev": "0.0224 s",
+        "Median": "1.758 s"
       },
       {
         "Method": "Build_NUnit",
         "Version": "4.4.0",
-        "Mean": "1.584 s",
-        "Error": "0.0166 s",
-        "StdDev": "0.0147 s",
-        "Median": "1.584 s"
+        "Mean": "1.566 s",
+        "Error": "0.0087 s",
+        "StdDev": "0.0068 s",
+        "Median": "1.566 s"
       },
       {
         "Method": "Build_MSTest",
         "Version": "4.0.1",
-        "Mean": "1.672 s",
-        "Error": "0.0177 s",
-        "StdDev": "0.0165 s",
-        "Median": "1.676 s"
+        "Mean": "1.639 s",
+        "Error": "0.0181 s",
+        "StdDev": "0.0161 s",
+        "Median": "1.639 s"
       },
       {
         "Method": "Build_xUnit3",
         "Version": "3.2.0",
-        "Mean": "1.577 s",
-        "Error": "0.0179 s",
-        "StdDev": "0.0167 s",
-        "Median": "1.577 s"
+        "Mean": "1.542 s",
+        "Error": "0.0171 s",
+        "StdDev": "0.0160 s",
+        "Median": "1.542 s"
       }
     ]
   },
   "comparisons": {
     "results": {
-      "tunitMean": 535.4,
-      "tunitAOTMean": 124.6,
-      "vsXUnit": "1.34",
-      "vsNUnit": "1.24",
-      "vsMSTest": "1.19",
-      "aotSpeedup": "4.30"
+      "tunitMean": 505.29,
+      "tunitAOTMean": 78.56,
+      "vsXUnit": "0.00",
+      "vsNUnit": "0.00",
+      "vsMSTest": "0.00",
+      "aotSpeedup": "6.43"
     }
   },
   "averageSpeedups": {
-    "vsXUnit": "1.3",
-    "vsNUnit": "1.2",
-    "vsMSTest": "1.2",
+    "vsXUnit": "0.0",
+    "vsNUnit": "0.0",
+    "vsMSTest": "0.0",
     "count": 1
   },
   "stats": {
     "runtimeCategories": 1,
     "buildCategories": 1,
     "totalBenchmarks": 2,
-    "lastUpdated": "2026-03-09T00:28:57.091Z"
+    "lastUpdated": "2026-03-10T00:26:27.673Z"
   }
 }
