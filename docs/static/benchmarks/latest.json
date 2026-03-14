@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-03-13T00:29:58.325Z",
+  "timestamp": "2026-03-14T00:27:28.895Z",
   "environment": {
     "benchmarkDotNetVersion": "BenchmarkDotNet v0.15.6, Linux Ubuntu 24.04.3 LTS (Noble Numbat)",
     "sdk": ".NET SDK 10.0.201",
-    "host": ".NET 10.0.5 (10.0.5, 10.0.526.15411), X64 RyuJIT x86-64-v4"
+    "host": ".NET 10.0.5 (10.0.5, 10.0.526.15411), X64 RyuJIT x86-64-v3"
   },
   "categories": {
     "results": [
       {
         "Method": "TUnit",
         "Version": "1.0.30",
-        "Mean": "463.44 ms",
-        "Error": "4.902 ms",
-        "StdDev": "4.093 ms",
-        "Median": "462.48 ms"
+        "Mean": "547.2 ms",
+        "Error": "9.26 ms",
+        "StdDev": "8.66 ms",
+        "Median": "545.1 ms"
       },
       {
         "Method": "NUnit",
         "Version": "4.4.0",
-        "Mean": "539.41 ms",
-        "Error": "10.391 ms",
-        "StdDev": "11.119 ms",
-        "Median": "537.02 ms"
+        "Mean": "704.7 ms",
+        "Error": "11.68 ms",
+        "StdDev": "10.92 ms",
+        "Median": "704.7 ms"
       },
       {
         "Method": "MSTest",
         "Version": "4.0.1",
-        "Mean": "575.04 ms",
-        "Error": "11.263 ms",
-        "StdDev": "18.188 ms",
-        "Median": "571.60 ms"
+        "Mean": "668.1 ms",
+        "Error": "10.74 ms",
+        "StdDev": "8.97 ms",
+        "Median": "667.1 ms"
       },
       {
         "Method": "xUnit3",
         "Version": "3.2.0",
-        "Mean": "589.95 ms",
-        "Error": "11.646 ms",
-        "StdDev": "14.728 ms",
-        "Median": "589.35 ms"
+        "Mean": "749.2 ms",
+        "Error": "7.74 ms",
+        "StdDev": "6.46 ms",
+        "Median": "749.6 ms"
       },
       {
         "Method": "TUnit_AOT",
         "Version": "1.0.30",
-        "Mean": "26.67 ms",
-        "Error": "0.528 ms",
-        "StdDev": "0.668 ms",
-        "Median": "26.51 ms"
+        "Mean": "124.2 ms",
+        "Error": "0.48 ms",
+        "StdDev": "0.45 ms",
+        "Median": "124.1 ms"
       }
     ]
   },
@@ -54,50 +54,50 @@
       {
         "Method": "Build_TUnit",
         "Version": "1.0.30",
-        "Mean": "1.877 s",
-        "Error": "0.0279 s",
-        "StdDev": "0.0261 s",
-        "Median": "1.876 s"
+        "Mean": "1.821 s",
+        "Error": "0.0354 s",
+        "StdDev": "0.0347 s",
+        "Median": "1.832 s"
       },
       {
         "Method": "Build_NUnit",
         "Version": "4.4.0",
-        "Mean": "1.649 s",
-        "Error": "0.0137 s",
-        "StdDev": "0.0128 s",
-        "Median": "1.652 s"
+        "Mean": "1.602 s",
+        "Error": "0.0158 s",
+        "StdDev": "0.0148 s",
+        "Median": "1.604 s"
       },
       {
         "Method": "Build_MSTest",
         "Version": "4.0.1",
-        "Mean": "1.739 s",
-        "Error": "0.0148 s",
-        "StdDev": "0.0139 s",
-        "Median": "1.741 s"
+        "Mean": "1.674 s",
+        "Error": "0.0141 s",
+        "StdDev": "0.0132 s",
+        "Median": "1.675 s"
       },
       {
         "Method": "Build_xUnit3",
         "Version": "3.2.0",
-        "Mean": "1.650 s",
-        "Error": "0.0200 s",
-        "StdDev": "0.0187 s",
-        "Median": "1.641 s"
+        "Mean": "1.604 s",
+        "Error": "0.0246 s",
+        "StdDev": "0.0230 s",
+        "Median": "1.591 s"
       }
     ]
   },
   "comparisons": {
     "results": {
-      "tunitMean": 463.44,
-      "tunitAOTMean": 26.67,
-      "vsXUnit": "1.27",
-      "vsNUnit": "1.16",
-      "vsMSTest": "1.24",
-      "aotSpeedup": "17.38"
+      "tunitMean": 547.2,
+      "tunitAOTMean": 124.2,
+      "vsXUnit": "1.37",
+      "vsNUnit": "1.29",
+      "vsMSTest": "1.22",
+      "aotSpeedup": "4.41"
     }
   },
   "averageSpeedups": {
-    "vsXUnit": "1.3",
-    "vsNUnit": "1.2",
+    "vsXUnit": "1.4",
+    "vsNUnit": "1.3",
     "vsMSTest": "1.2",
     "count": 1
   },
@@ -105,6 +105,6 @@
     "runtimeCategories": 1,
     "buildCategories": 1,
     "totalBenchmarks": 2,
-    "lastUpdated": "2026-03-13T00:29:58.323Z"
+    "lastUpdated": "2026-03-14T00:27:28.894Z"
   }
 }
