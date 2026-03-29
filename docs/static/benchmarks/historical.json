@@ -1,15 +1,5 @@
 [
   {
-    "date": "2025-12-27",
-    "averageSpeedups": {
-      "vsXUnit": "1.3",
-      "vsNUnit": "1.3",
-      "vsMSTest": "1.2",
-      "count": 1
-    },
-    "environment": "Ubuntu"
-  },
-  {
     "date": "2025-12-28",
     "averageSpeedups": {
       "vsXUnit": "0.0",
@@ -891,6 +881,16 @@
   },
   {
     "date": "2026-03-28",
+    "averageSpeedups": {
+      "vsXUnit": "1.2",
+      "vsNUnit": "1.1",
+      "vsMSTest": "1.1",
+      "count": 1
+    },
+    "environment": "Ubuntu"
+  },
+  {
+    "date": "2026-03-29",
     "averageSpeedups": {
       "vsXUnit": "1.2",
       "vsNUnit": "1.1",
