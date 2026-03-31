@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-03-30T00:33:38.455Z",
+  "timestamp": "2026-03-31T00:32:49.662Z",
   "environment": {
     "benchmarkDotNetVersion": "BenchmarkDotNet v0.15.6, Linux Ubuntu 24.04.4 LTS (Noble Numbat)",
     "sdk": ".NET SDK 10.0.201",
-    "host": ".NET 10.0.5 (10.0.5, 10.0.526.15411), X64 RyuJIT x86-64-v3"
+    "host": ".NET 10.0.5 (10.0.5, 10.0.526.15411), X64 RyuJIT x86-64-v4"
   },
   "categories": {
     "results": [
       {
         "Method": "TUnit",
         "Version": "1.0.30",
-        "Mean": "543.1 ms",
-        "Error": "3.11 ms",
-        "StdDev": "2.91 ms",
-        "Median": "544.0 ms"
+        "Mean": "521.6 ms",
+        "Error": "6.53 ms",
+        "StdDev": "5.45 ms",
+        "Median": "521.0 ms"
       },
       {
         "Method": "NUnit",
         "Version": "4.4.0",
-        "Mean": "660.4 ms",
-        "Error": "12.67 ms",
-        "StdDev": "12.45 ms",
-        "Median": "656.8 ms"
+        "Mean": "664.0 ms",
+        "Error": "8.41 ms",
+        "StdDev": "7.02 ms",
+        "Median": "664.7 ms"
       },
       {
         "Method": "MSTest",
         "Version": "4.0.1",
-        "Mean": "619.3 ms",
-        "Error": "6.17 ms",
-        "StdDev": "5.77 ms",
-        "Median": "620.5 ms"
+        "Mean": "632.0 ms",
+        "Error": "12.08 ms",
+        "StdDev": "11.30 ms",
+        "Median": "628.5 ms"
       },
       {
         "Method": "xUnit3",
         "Version": "3.2.0",
-        "Mean": "715.2 ms",
-        "Error": "10.90 ms",
-        "StdDev": "10.19 ms",
-        "Median": "714.6 ms"
+        "Mean": "717.9 ms",
+        "Error": "11.98 ms",
+        "StdDev": "11.21 ms",
+        "Median": "718.0 ms"
       },
       {
         "Method": "TUnit_AOT",
         "Version": "1.0.30",
-        "Mean": "123.6 ms",
-        "Error": "0.50 ms",
-        "StdDev": "0.47 ms",
-        "Median": "123.6 ms"
+        "Mean": "123.3 ms",
+        "Error": "0.33 ms",
+        "StdDev": "0.28 ms",
+        "Median": "123.2 ms"
       }
     ]
   },
@@ -54,57 +54,57 @@
       {
         "Method": "Build_TUnit",
         "Version": "1.0.30",
-        "Mean": "1.808 s",
-        "Error": "0.0342 s",
-        "StdDev": "0.0336 s",
-        "Median": "1.814 s"
+        "Mean": "1.763 s",
+        "Error": "0.0280 s",
+        "StdDev": "0.0248 s",
+        "Median": "1.767 s"
       },
       {
         "Method": "Build_NUnit",
         "Version": "4.4.0",
-        "Mean": "1.598 s",
-        "Error": "0.0180 s",
-        "StdDev": "0.0160 s",
-        "Median": "1.599 s"
+        "Mean": "1.568 s",
+        "Error": "0.0147 s",
+        "StdDev": "0.0137 s",
+        "Median": "1.570 s"
       },
       {
         "Method": "Build_MSTest",
         "Version": "4.0.1",
-        "Mean": "1.661 s",
-        "Error": "0.0167 s",
-        "StdDev": "0.0156 s",
-        "Median": "1.660 s"
+        "Mean": "1.642 s",
+        "Error": "0.0099 s",
+        "StdDev": "0.0087 s",
+        "Median": "1.643 s"
       },
       {
         "Method": "Build_xUnit3",
         "Version": "3.2.0",
-        "Mean": "1.586 s",
-        "Error": "0.0168 s",
-        "StdDev": "0.0158 s",
-        "Median": "1.585 s"
+        "Mean": "1.561 s",
+        "Error": "0.0102 s",
+        "StdDev": "0.0091 s",
+        "Median": "1.562 s"
       }
     ]
   },
   "comparisons": {
     "results": {
-      "tunitMean": 543.1,
-      "tunitAOTMean": 123.6,
-      "vsXUnit": "1.32",
-      "vsNUnit": "1.22",
-      "vsMSTest": "1.14",
-      "aotSpeedup": "4.39"
+      "tunitMean": 521.6,
+      "tunitAOTMean": 123.3,
+      "vsXUnit": "1.38",
+      "vsNUnit": "1.27",
+      "vsMSTest": "1.21",
+      "aotSpeedup": "4.23"
     }
   },
   "averageSpeedups": {
-    "vsXUnit": "1.3",
-    "vsNUnit": "1.2",
-    "vsMSTest": "1.1",
+    "vsXUnit": "1.4",
+    "vsNUnit": "1.3",
+    "vsMSTest": "1.2",
     "count": 1
   },
   "stats": {
     "runtimeCategories": 1,
     "buildCategories": 1,
     "totalBenchmarks": 2,
-    "lastUpdated": "2026-03-30T00:33:38.452Z"
+    "lastUpdated": "2026-03-31T00:32:49.660Z"
   }
 }
