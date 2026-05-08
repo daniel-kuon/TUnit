@@ -1,51 +1,51 @@
 {
-  "timestamp": "2026-05-07T00:43:04.256Z",
+  "timestamp": "2026-05-08T00:42:58.526Z",
   "environment": {
     "benchmarkDotNetVersion": "BenchmarkDotNet v0.15.6, Linux Ubuntu 24.04.4 LTS (Noble Numbat)",
     "sdk": ".NET SDK 10.0.203",
-    "host": ".NET 10.0.7 (10.0.7, 10.0.726.21808), X64 RyuJIT x86-64-v4"
+    "host": ".NET 10.0.7 (10.0.7, 10.0.726.21808), X64 RyuJIT x86-64-v3"
   },
   "categories": {
     "results": [
       {
         "Method": "TUnit",
         "Version": "1.0.30",
-        "Mean": "522.23 ms",
-        "Error": "6.332 ms",
-        "StdDev": "5.923 ms",
-        "Median": "523.55 ms"
+        "Mean": "503.46 ms",
+        "Error": "6.889 ms",
+        "StdDev": "6.444 ms",
+        "Median": "505.65 ms"
       },
       {
         "Method": "NUnit",
         "Version": "4.4.0",
-        "Mean": "1,550.28 ms",
-        "Error": "10.231 ms",
-        "StdDev": "9.570 ms",
-        "Median": "1,554.11 ms"
+        "Mean": "536.19 ms",
+        "Error": "6.237 ms",
+        "StdDev": "5.529 ms",
+        "Median": "535.68 ms"
       },
       {
         "Method": "MSTest",
         "Version": "4.0.1",
-        "Mean": "1,502.19 ms",
-        "Error": "8.952 ms",
-        "StdDev": "7.936 ms",
-        "Median": "1,499.41 ms"
+        "Mean": "476.08 ms",
+        "Error": "9.264 ms",
+        "StdDev": "9.099 ms",
+        "Median": "477.80 ms"
       },
       {
         "Method": "xUnit3",
         "Version": "3.2.0",
-        "Mean": "1,594.39 ms",
-        "Error": "11.958 ms",
-        "StdDev": "10.600 ms",
-        "Median": "1,590.16 ms"
+        "Mean": "593.98 ms",
+        "Error": "10.540 ms",
+        "StdDev": "9.859 ms",
+        "Median": "594.86 ms"
       },
       {
         "Method": "TUnit_AOT",
         "Version": "1.0.30",
-        "Mean": "79.52 ms",
-        "Error": "0.287 ms",
-        "StdDev": "0.268 ms",
-        "Median": "79.49 ms"
+        "Mean": "26.07 ms",
+        "Error": "0.311 ms",
+        "StdDev": "0.291 ms",
+        "Median": "26.09 ms"
       }
     ]
   },
@@ -54,57 +54,57 @@
       {
         "Method": "Build_TUnit",
         "Version": "1.0.30",
-        "Mean": "1.822 s",
-        "Error": "0.0259 s",
-        "StdDev": "0.0229 s",
-        "Median": "1.825 s"
+        "Mean": "1.800 s",
+        "Error": "0.0309 s",
+        "StdDev": "0.0289 s",
+        "Median": "1.812 s"
       },
       {
         "Method": "Build_NUnit",
         "Version": "4.4.0",
-        "Mean": "1.566 s",
-        "Error": "0.0106 s",
-        "StdDev": "0.0094 s",
-        "Median": "1.567 s"
+        "Mean": "1.621 s",
+        "Error": "0.0123 s",
+        "StdDev": "0.0115 s",
+        "Median": "1.619 s"
       },
       {
         "Method": "Build_MSTest",
         "Version": "4.0.1",
-        "Mean": "1.654 s",
-        "Error": "0.0328 s",
-        "StdDev": "0.0307 s",
-        "Median": "1.651 s"
+        "Mean": "1.659 s",
+        "Error": "0.0122 s",
+        "StdDev": "0.0102 s",
+        "Median": "1.659 s"
       },
       {
         "Method": "Build_xUnit3",
         "Version": "3.2.0",
-        "Mean": "1.559 s",
-        "Error": "0.0132 s",
-        "StdDev": "0.0124 s",
-        "Median": "1.555 s"
+        "Mean": "1.587 s",
+        "Error": "0.0106 s",
+        "StdDev": "0.0100 s",
+        "Median": "1.585 s"
       }
     ]
   },
   "comparisons": {
     "results": {
-      "tunitMean": 522.23,
-      "tunitAOTMean": 79.52,
-      "vsXUnit": "0.00",
-      "vsNUnit": "0.00",
-      "vsMSTest": "0.00",
-      "aotSpeedup": "6.57"
+      "tunitMean": 503.46,
+      "tunitAOTMean": 26.07,
+      "vsXUnit": "1.18",
+      "vsNUnit": "1.07",
+      "vsMSTest": "0.95",
+      "aotSpeedup": "19.31"
     }
   },
   "averageSpeedups": {
-    "vsXUnit": "0.0",
-    "vsNUnit": "0.0",
-    "vsMSTest": "0.0",
+    "vsXUnit": "1.2",
+    "vsNUnit": "1.1",
+    "vsMSTest": "0.9",
     "count": 1
   },
   "stats": {
     "runtimeCategories": 1,
     "buildCategories": 1,
     "totalBenchmarks": 2,
-    "lastUpdated": "2026-05-07T00:43:04.255Z"
+    "lastUpdated": "2026-05-08T00:42:58.524Z"
   }
 }
