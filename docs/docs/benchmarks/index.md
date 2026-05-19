@@ -7,7 +7,7 @@ sidebar_position: 1
 # Performance Benchmarks
 
 :::info Last Updated
-These benchmarks were automatically generated on **2026-05-18** from the latest CI run.
+These benchmarks were automatically generated on **2026-05-19** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.300
 :::
@@ -41,11 +41,11 @@ TUnit with Native AOT compilation is **4.26x faster** than regular JIT!
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| 🏆 **TUnit** | 1.0.30 | 553.0 ms | 552.9 ms | 6.75 ms |
-| NUnit | 4.4.0 | 1,176.3 ms | 1,175.0 ms | 9.17 ms |
-| MSTest | 4.0.1 | 2,967.1 ms | 2,968.0 ms | 10.41 ms |
-| xUnit3 | 3.2.0 | 3,048.4 ms | 3,047.8 ms | 10.82 ms |
-| 🏆 **TUnit (AOT)** | 1.0.30 | 129.7 ms | 129.7 ms | 0.42 ms |
+| 🏆 **TUnit** | 1.0.30 | 549.5 ms | 547.5 ms | 8.39 ms |
+| NUnit | 4.4.0 | 1,152.5 ms | 1,150.4 ms | 9.51 ms |
+| MSTest | 4.0.1 | 2,944.9 ms | 2,944.7 ms | 7.42 ms |
+| xUnit3 | 3.2.0 | 3,022.8 ms | 3,023.9 ms | 4.49 ms |
+| 🏆 **TUnit (AOT)** | 1.0.30 | 129.1 ms | 129.1 ms | 0.49 ms |
 
 
 ---
@@ -56,10 +56,10 @@ Compilation time comparison across frameworks:
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| 🏆 **TUnit** | 1.0.30 | 1.636 s | 1.644 s | 0.0444 s |
-| Build_NUnit | 4.4.0 | 1.331 s | 1.325 s | 0.0339 s |
-| Build_MSTest | 4.0.1 | 1.694 s | 1.691 s | 0.0712 s |
-| Build_xUnit3 | 3.2.0 | 1.376 s | 1.376 s | 0.0167 s |
+| 🏆 **TUnit** | 1.0.30 | 1.533 s | 1.517 s | 0.0597 s |
+| Build_NUnit | 4.4.0 | 1.413 s | 1.421 s | 0.0146 s |
+| Build_MSTest | 4.0.1 | 1.503 s | 1.504 s | 0.0206 s |
+| Build_xUnit3 | 3.2.0 | 1.419 s | 1.418 s | 0.0185 s |
 
 
 ---
@@ -116,4 +116,4 @@ These benchmarks run automatically daily via [GitHub Actions](https://github.com
 Each benchmark runs multiple iterations with statistical analysis to ensure accuracy. Results may vary based on hardware and test characteristics.
 :::
 
-*Last generated: 2026-05-18T00:46:55.886Z*
+*Last generated: 2026-05-19T00:48:24.369Z*
