@@ -7,7 +7,7 @@ sidebar_position: 1
 # Performance Benchmarks
 
 :::info Last Updated
-These benchmarks were automatically generated on **2026-08-14** from the latest CI run.
+These benchmarks were automatically generated on **2026-08-15** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.400
 :::
@@ -34,18 +34,18 @@ TUnit demonstrates significant performance advantages across all testing scenari
 ### results
 
 :::tip Native AOT Performance
-TUnit with Native AOT compilation is **6.54x faster** than regular JIT!
+TUnit with Native AOT compilation is **5.68x faster** than regular JIT!
 :::
 
 **Performance:** **0.00x faster** than xUnit • **0.00x faster** than NUnit • **0.00x faster** than MSTest
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| 🏆 **TUnit** | 1.0.30 | 556.67 ms | 555.84 ms | 5.046 ms |
-| NUnit | 4.4.0 | 1,539.12 ms | 1,534.98 ms | 9.141 ms |
-| MSTest | 4.0.1 | 1,493.59 ms | 1,493.70 ms | 6.647 ms |
-| xUnit3 | 3.2.0 | 1,584.24 ms | 1,584.25 ms | 10.181 ms |
-| 🏆 **TUnit (AOT)** | 1.0.30 | 85.08 ms | 84.89 ms | 1.656 ms |
+| 🏆 **TUnit** | 1.0.30 | 452.04 ms | 451.98 ms | 3.787 ms |
+| NUnit | 4.4.0 | 1,452.37 ms | 1,453.02 ms | 7.252 ms |
+| MSTest | 4.0.1 | 1,428.42 ms | 1,428.23 ms | 4.833 ms |
+| xUnit3 | 3.2.0 | 1,492.61 ms | 1,494.65 ms | 4.574 ms |
+| 🏆 **TUnit (AOT)** | 1.0.30 | 79.65 ms | 79.72 ms | 1.018 ms |
 
 
 ---
@@ -56,10 +56,10 @@ Compilation time comparison across frameworks:
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| 🏆 **TUnit** | 1.0.30 | 1.715 s | 1.700 s | 0.0649 s |
-| Build_NUnit | 4.4.0 | 1.586 s | 1.582 s | 0.0167 s |
-| Build_MSTest | 4.0.1 | 1.650 s | 1.650 s | 0.0139 s |
-| Build_xUnit3 | 3.2.0 | 1.594 s | 1.590 s | 0.0155 s |
+| 🏆 **TUnit** | 1.0.30 | 1.725 s | 1.704 s | 0.0629 s |
+| Build_NUnit | 4.4.0 | 1.593 s | 1.594 s | 0.0132 s |
+| Build_MSTest | 4.0.1 | 1.658 s | 1.656 s | 0.0183 s |
+| Build_xUnit3 | 3.2.0 | 1.604 s | 1.597 s | 0.0241 s |
 
 
 ---
@@ -88,7 +88,7 @@ The benchmarks measure real-world testing patterns:
 ### Environment
 
 - **OS**: Ubuntu Latest (GitHub Actions)
-- **Runtime**: .NET 10.0.11 (10.0.11, 10.0.1126.37416), X64 RyuJIT x86-64-v3
+- **Runtime**: .NET 10.0.11 (10.0.11, 10.0.1126.37416), X64 RyuJIT x86-64-v4
 - **SDK**: .NET SDK 10.0.400
 - **Hardware**: GitHub Actions Standard Runner (Ubuntu)
 - **Tool**: BenchmarkDotNet v0.15.6, Linux Ubuntu 24.04.4 LTS (Noble Numbat)
@@ -116,4 +116,4 @@ These benchmarks run automatically daily via [GitHub Actions](https://github.com
 Each benchmark runs multiple iterations with statistical analysis to ensure accuracy. Results may vary based on hardware and test characteristics.
 :::
 
-*Last generated: 2026-08-14T01:44:47.498Z*
+*Last generated: 2026-08-15T01:05:49.765Z*
