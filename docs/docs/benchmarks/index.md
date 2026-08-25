@@ -7,7 +7,7 @@ sidebar_position: 1
 # Performance Benchmarks
 
 :::info Last Updated
-These benchmarks were automatically generated on **2026-08-24** from the latest CI run.
+These benchmarks were automatically generated on **2026-08-25** from the latest CI run.
 
 **Environment:** Ubuntu Latest • .NET SDK 10.0.400
 :::
@@ -20,9 +20,9 @@ TUnit demonstrates significant performance advantages across all testing scenari
 
 ### Average Performance vs Other Frameworks
 
-- **0.0x faster** than xUnit v3
-- **0.0x faster** than NUnit
-- **0.0x faster** than MSTest
+- **1.1x faster** than xUnit v3
+- **1.1x faster** than NUnit
+- **0.9x faster** than MSTest
 
 </div>
 
@@ -34,18 +34,18 @@ TUnit demonstrates significant performance advantages across all testing scenari
 ### results
 
 :::tip Native AOT Performance
-TUnit with Native AOT compilation is **6.72x faster** than regular JIT!
+TUnit with Native AOT compilation is **9.21x faster** than regular JIT!
 :::
 
-**Performance:** **0.00x faster** than xUnit • **0.00x faster** than NUnit • **0.00x faster** than MSTest
+**Performance:** **1.09x faster** than xUnit • **1.11x faster** than NUnit • **0.95x faster** than MSTest
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| 🏆 **TUnit** | 1.0.30 | 572.74 ms | 572.46 ms | 3.928 ms |
-| NUnit | 4.4.0 | 1,561.91 ms | 1,559.39 ms | 9.199 ms |
-| MSTest | 4.0.1 | 1,521.49 ms | 1,520.50 ms | 8.466 ms |
-| xUnit3 | 3.2.0 | 1,601.38 ms | 1,599.67 ms | 11.568 ms |
-| 🏆 **TUnit (AOT)** | 1.0.30 | 85.18 ms | 85.11 ms | 1.040 ms |
+| 🏆 **TUnit** | 1.0.30 | 507.35 ms | 508.35 ms | 7.579 ms |
+| NUnit | 4.4.0 | 564.45 ms | 563.99 ms | 8.074 ms |
+| MSTest | 4.0.1 | 480.06 ms | 479.81 ms | 6.655 ms |
+| xUnit3 | 3.2.0 | 554.37 ms | 554.26 ms | 5.650 ms |
+| 🏆 **TUnit (AOT)** | 1.0.30 | 55.11 ms | 55.48 ms | 4.093 ms |
 
 
 ---
@@ -56,10 +56,10 @@ Compilation time comparison across frameworks:
 
 | Framework | Version | Mean | Median | StdDev |
 |-----------|---------|------|--------|--------|
-| 🏆 **TUnit** | 1.0.30 | 1.765 s | 1.759 s | 0.0563 s |
-| Build_NUnit | 4.4.0 | 1.696 s | 1.692 s | 0.0131 s |
-| Build_MSTest | 4.0.1 | 1.774 s | 1.771 s | 0.0158 s |
-| Build_xUnit3 | 3.2.0 | 1.689 s | 1.688 s | 0.0150 s |
+| 🏆 **TUnit** | 1.0.30 | 1.517 s | 1.507 s | 0.0681 s |
+| Build_NUnit | 4.4.0 | 1.258 s | 1.262 s | 0.0126 s |
+| Build_MSTest | 4.0.1 | 1.527 s | 1.515 s | 0.0703 s |
+| Build_xUnit3 | 3.2.0 | 1.227 s | 1.224 s | 0.0205 s |
 
 
 ---
@@ -116,4 +116,4 @@ These benchmarks run automatically daily via [GitHub Actions](https://github.com
 Each benchmark runs multiple iterations with statistical analysis to ensure accuracy. Results may vary based on hardware and test characteristics.
 :::
 
-*Last generated: 2026-08-24T01:08:21.791Z*
+*Last generated: 2026-08-25T01:08:27.058Z*
